@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <title>LISTUSERS</title>
+   </head>
+   <body>
+      <h1>Список</h1>
+	  <hr>
+	  <%for (var i=0; i< users.length; i++){%>
+	  <div class="post">
+	  <h5><%=users[i].first_name%> | <%=users[i].last_name%> | <%=users[i].email%> | <%=users[i].money%></h5>
+	  
+	  </div>
+	  <% } %>
+   </body>
+</html>
